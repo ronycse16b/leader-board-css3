@@ -1,0 +1,57 @@
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Rubik+Moonrocks&display=swap');
+
+/* common-style or utilityes */
+body{
+    font-family: 'Poppins';
+ background-color: #F3F1FF;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{
+    background-color: #FFF;
+    width:870px;
+}
+
+hr{
+    border:1px solid #D1D1D1;
+    margin-bottom:20px
+}
+/* top-plyaers-styles */
+
+.top-players{
+    padding: 25px 30px;
+
+}
+
+.plyaer-title{
+    Size:24px;
+Line-height:36px;
+color: #562EFF;
+margin-top: 3px;
+}
+.players{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+   grid-row-gap:30px;
+}
+.player{
+    display:flex;
+    align-items:center;
+}
+.player-name{
+    margin-left: 16px;
+    font-size:18px;
+}
+.player img{
+    width:56px;
+    height:56px;
+ 
+
+}
